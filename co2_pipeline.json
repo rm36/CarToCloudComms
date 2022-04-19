@@ -1,0 +1,18 @@
+{
+    "pipelineName": "co2_pipeline",
+    "pipelineActivities": [
+        {
+            "channel": {
+                "name": "mychannelactivity",
+                "channelName": "lab4",
+                "next": "mystoreactivity"
+            }
+        },
+        {
+            "datastore": {
+                "name": "mystoreactivity",
+                "datastoreName": "co2"
+            }
+        }
+    ]
+}

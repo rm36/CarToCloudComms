@@ -1,0 +1,11 @@
+{
+    "sql": "SELECT * FROM 'co2/report'",
+    "ruleDisabled": false,
+    "awsIotSqlVersion": "2016-03-23",
+    "actions": [ {
+        "iotAnalytics": {
+            "channelName": "lab4",
+            "roleArn": "arn:aws:iam::860795982569:role/myAnalyticsRole"
+        }
+    } ]
+}

@@ -1,0 +1,12 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "iotanalytics:BatchPutMessage",
+            "Resource": [
+               "arn:aws:iotanalytics:us-east-1:860795982569:channel/lab4"
+            ]
+        }
+    ]
+}

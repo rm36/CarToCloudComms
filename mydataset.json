@@ -1,0 +1,11 @@
+{
+    "datasetName": "mydataset",
+    "actions": [
+        {
+            "actionName":"myaction",
+            "queryAction": {
+                "sqlQuery": "select * from co2"
+            }
+        }
+    ]
+}
